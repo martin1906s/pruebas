@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="likes.css" />
+    <script src="likes.js"></script>
+</head>
+
+<body>
+    <div class="titulo">¿CUAL ES EL MEJOR?</div>
+    <div class="contenedorJuegos">
+        <div class="contenedor">
+            <img src="minecraft.jpg" class="imagenJuego" />
+            <div class="botones">
+                <img src="like.jpg" class="imagenBoton" onclick="sumarLikeMinecraft();"/>
+                <img src="heart.jpg" class="imagenBoton" onclick="sumarCorazonMinecraft();"/>
+                <img src="dislike.jpg" class="imagenBoton" onclick="restarLikeMinecraft();"/>
+            </div>
+            <p class="votos" id="lblMinecraft">0</p>
+        </div>
+        <div class="contenedor">
+            <img src="roblox.jpg" class="imagenJuego" />
+            <div class="botones">
+                <img src="like.jpg" class="imagenBoton" onclick="sumarLikeRoblox();"/>
+                <img src="heart.jpg" class="imagenBoton" onclick="sumarCorazonRoblox();"/>
+                <img src="dislike.jpg" class="imagenBoton" onclick="restarLikeRoblox();"/>
+            </div>
+            <p class="votos" id="lblRoblox">0</p>
+        </div>
+    </div>
+</body>
+
+</html>
